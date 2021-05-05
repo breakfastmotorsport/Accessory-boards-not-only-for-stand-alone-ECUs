@@ -1,0 +1,11 @@
+Reference,Quantity,Value,Footprint,Notes
+A1,1,Arduino Nano,,or 2 15p male or female pin headers
+C1,1,u1,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm,
+C2,1,u22,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm,
+C3,1,47u,Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm,does not have to be this specific value or type -- is just for smoothing
+D1 D2,2,BAT43,Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal,
+D3,1,LED_CRGB,LED_THT:LED_D5.0mm-4_RGB,common cathode
+J1 J2 J3,3,Conn_01x01,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,1mm drill diameter; 0.5mm² wire should fit
+J4,2,Conn_01x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1mm drill diameter; 0.5mm² wire should fit; or angled pin header for Arduino on top
+R1,1,470,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+R2 R3 R4,3,270,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,does not have to be this specific value
